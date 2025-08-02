@@ -1,0 +1,43 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:moviedb_app/presentation/providers/providers.dart';
+import 'package:moviedb_app/presentation/widgets/widgets.dart';
+
+class FavoritesView extends ConsumerStatefulWidget {
+  const FavoritesView({super.key});
+
+  @override
+  FavoritesViewState createState() => FavoritesViewState();
+}
+
+class FavoritesViewState extends ConsumerState<FavoritesView> {
+  bool isLoading = false;
+  bool isLastPage = false;
+
+  @override
+  void initState() {
+    super.initState();
+    loadNextPage();
+    
+  }
+
+  void loadNextPage() async {
+    if(isLoading || isLastPage) return;
+    isLoading = true;
+
+    final movies = await ref.read(favoritesMoviesProvider.notifier).loadNextPage();
+    isLoading = false;
+
+    if(movies.isEmpty){
+      isLastPage = true;
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+
+    final favoritesMovies = ref.watch(favoritesMoviesProvider).values.toList();
+  
+    return MovieMasonry(movies: favoritesMovies, loadNextPage: loadNextPage,);
+  }
+}

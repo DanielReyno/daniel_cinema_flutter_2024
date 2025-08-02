@@ -1,0 +1,10 @@
+export 'movies/movie_repository_provider.dart';
+export 'movies/movies_providers.dart';
+export 'movies/movie_slideshow_provider.dart';
+export 'movies/initial_loading_provider.dart';
+export 'movies/movie_details_provider.dart';
+export 'movie_cast/actor_repository_provider.dart';
+export 'movie_cast/movie_cast_provider.dart';
+export 'search/get_search_query_provider.dart';
+export 'storage/local_repository_provider.dart';
+export 'storage/favorites_movies_provider.dart';
