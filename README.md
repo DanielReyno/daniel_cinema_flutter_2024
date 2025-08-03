@@ -24,7 +24,9 @@
 
 <h2>Agregar una pelicula a favoritos/ visualizar las peliculas favoritas</h2>
 <img width="377" height="833" alt="image" src="https://github.com/user-attachments/assets/cef45222-cf05-42bb-96cb-fc007f72397c" />
-<img width="368" height="845" alt="image" src="https://github.com/user-attachments/assets/6b4e1740-c917-43c8-a6f5-eebc6284cffb" />
+<img width="358" height="830" alt="image" src="https://github.com/user-attachments/assets/a81a9be2-0d3c-479b-9ad0-6bebb6294a49" />
+
+
 
 
 
