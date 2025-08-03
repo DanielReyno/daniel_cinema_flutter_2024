@@ -2,6 +2,9 @@
 
 <img width="1347" height="845" alt="image" src="https://github.com/user-attachments/assets/9e31cc15-130d-4ac4-b3f4-08b9e7d13e36" />
 
+<h2>Configuraciones</h2>
+<p>Para poder probar la aplicacion debera de conseguir una api key para poder consumir los servicios de TheMovieDb</p>
+<img width="373" height="129" alt="image" src="https://github.com/user-attachments/assets/3bf24356-86f0-4a29-81b5-115d727b0e01" />
 
 
  <h2>pantalla principal</h2>
@@ -22,5 +25,6 @@
 <h2>Agregar una pelicula a favoritos/ visualizar las peliculas favoritas</h2>
 <img width="377" height="833" alt="image" src="https://github.com/user-attachments/assets/cef45222-cf05-42bb-96cb-fc007f72397c" />
 <img width="368" height="845" alt="image" src="https://github.com/user-attachments/assets/6b4e1740-c917-43c8-a6f5-eebc6284cffb" />
+
 
 
